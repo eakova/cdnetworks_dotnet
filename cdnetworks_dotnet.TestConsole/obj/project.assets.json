@@ -197,7 +197,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "cdnetworks_dotnet/1.0.0": {
+      "cdnetworks_dotnet/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
@@ -667,7 +667,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "cdnetworks_dotnet/1.0.0": {
+    "cdnetworks_dotnet/1.0.1": {
       "type": "project",
       "path": "../cdnetworks/cdnetworks_dotnet/cdnetworks_dotnet.csproj",
       "msbuildProject": "../cdnetworks/cdnetworks_dotnet/cdnetworks_dotnet.csproj"
@@ -676,7 +676,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "cdnetworks_dotnet >= 1.0.0"
+      "cdnetworks_dotnet >= 1.0.1"
     ]
   },
   "packageFolders": {
@@ -689,11 +689,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\cdnetworks_dotnet.TestConsole\\cdnetworks_dotnet.TestConsole.csproj",
+      "projectUniqueName": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks_dotnet.TestConsole\\cdnetworks_dotnet.TestConsole.csproj",
       "projectName": "cdnetworks_dotnet.TestConsole",
-      "projectPath": "D:\\Projects\\cdnetworks_dotnet.TestConsole\\cdnetworks_dotnet.TestConsole.csproj",
+      "projectPath": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks_dotnet.TestConsole\\cdnetworks_dotnet.TestConsole.csproj",
       "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\cdnetworks_dotnet.TestConsole\\obj\\",
+      "outputPath": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks_dotnet.TestConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -713,8 +713,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projects\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj": {
-              "projectPath": "D:\\Projects\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj"
+            "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj": {
+              "projectPath": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj"
             }
           }
         }

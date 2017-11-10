@@ -181,16 +181,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj",
+      "projectUniqueName": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj",
       "projectName": "cdnetworks_dotnet",
-      "projectPath": "D:\\Projects\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj",
+      "projectPath": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks\\cdnetworks_dotnet\\cdnetworks_dotnet.csproj",
       "packagesPath": "C:\\Users\\dev1\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\cdnetworks\\cdnetworks_dotnet\\obj\\",
+      "outputPath": "D:\\Projects\\cdnetworks_dotnet\\cdnetworks_dotnet\\cdnetworks\\cdnetworks_dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

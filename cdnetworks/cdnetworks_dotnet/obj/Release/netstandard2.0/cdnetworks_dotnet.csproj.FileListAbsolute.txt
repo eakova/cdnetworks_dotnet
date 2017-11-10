@@ -6,3 +6,12 @@ D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_d
 D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.AssemblyInfo.cs
 D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.dll
 D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Release\netstandard2.0\cdnetworks_dotnet.deps.json
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Release\netstandard2.0\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Release\netstandard2.0\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.csprojResolveAssemblyReference.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.csproj.CoreCompileInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.AssemblyInfoInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.AssemblyInfo.cs
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Release\netstandard2.0\cdnetworks_dotnet.pdb
