@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cdnetworks_dotnet", "cdnetworks_dotnet\cdnetworks_dotnet.csproj", "{3CE18175-8B27-4E47-BB7A-614E195F3F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cdnetworks_dotnet.TestConsole", "..\cdnetworks_dotnet.TestConsole\cdnetworks_dotnet.TestConsole.csproj", "{FB1DD9F4-D3B6-4BDC-8406-3676AAFBC370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE18175-8B27-4E47-BB7A-614E195F3F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE18175-8B27-4E47-BB7A-614E195F3F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE18175-8B27-4E47-BB7A-614E195F3F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE18175-8B27-4E47-BB7A-614E195F3F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1DD9F4-D3B6-4BDC-8406-3676AAFBC370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1DD9F4-D3B6-4BDC-8406-3676AAFBC370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1DD9F4-D3B6-4BDC-8406-3676AAFBC370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1DD9F4-D3B6-4BDC-8406-3676AAFBC370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B7A8012-58EC-44C7-BBB2-49F35A52B914}
+	EndGlobalSection
+EndGlobal

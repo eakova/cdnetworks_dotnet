@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Erhan Akova</Authors>
+    <Company />
+    <Description>Dot Net Client based on CDNetworks Cache Flush Open API v2.3.2 document</Description>
+  </PropertyGroup>
+
+</Project>
