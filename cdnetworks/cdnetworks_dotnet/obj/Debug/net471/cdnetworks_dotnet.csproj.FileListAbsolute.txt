@@ -1,0 +1,7 @@
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\net471\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\net471\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\net471\cdnetworks_dotnet.csproj.CoreCompileInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\net471\cdnetworks_dotnet.AssemblyInfoInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\net471\cdnetworks_dotnet.AssemblyInfo.cs
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\net471\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\net471\cdnetworks_dotnet.pdb

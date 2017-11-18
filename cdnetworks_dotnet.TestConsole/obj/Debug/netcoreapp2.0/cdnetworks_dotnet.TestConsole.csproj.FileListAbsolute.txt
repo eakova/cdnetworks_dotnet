@@ -11,3 +11,16 @@ D:\Projects\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dot
 D:\Projects\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.AssemblyInfo.cs
 D:\Projects\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.dll
 D:\Projects\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.deps.json
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.runtimeconfig.json
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.runtimeconfig.dev.json
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\bin\Debug\netcoreapp2.0\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.csprojResolveAssemblyReference.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.csproj.CoreCompileInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.AssemblyInfoInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.AssemblyInfo.cs
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks_dotnet.TestConsole\obj\Debug\netcoreapp2.0\cdnetworks_dotnet.TestConsole.pdb

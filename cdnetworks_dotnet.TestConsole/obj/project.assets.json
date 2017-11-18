@@ -197,7 +197,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "cdnetworks_dotnet/1.0.1": {
+      "cdnetworks_dotnet/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
@@ -667,7 +667,7 @@
         "netstandard.library.nuspec"
       ]
     },
-    "cdnetworks_dotnet/1.0.1": {
+    "cdnetworks_dotnet/1.0.2": {
       "type": "project",
       "path": "../cdnetworks/cdnetworks_dotnet/cdnetworks_dotnet.csproj",
       "msbuildProject": "../cdnetworks/cdnetworks_dotnet/cdnetworks_dotnet.csproj"
@@ -676,7 +676,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NETCore.App >= 2.0.0",
-      "cdnetworks_dotnet >= 1.0.1"
+      "cdnetworks_dotnet >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -730,7 +730,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           }
         },

@@ -1,10 +1,8 @@
-﻿ 
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Text;
 using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
+using System.IO;
+using System.Collections.Specialized;
 
 namespace cdnetworks_dotnet
 {
@@ -23,6 +21,8 @@ namespace cdnetworks_dotnet
         public string servicearea { get; set; }
     }
 
+    
+
     public class CdnetworksClient
     {
         CdnetworksConfig conf;
@@ -30,33 +30,55 @@ namespace cdnetworks_dotnet
         {
             conf = _conf;
         }
+
+        private string http_send(String url, NameValueCollection nameValueCollection,string method="POST")
+        {
+            var parameters = new StringBuilder();
+
+                foreach (string key in nameValueCollection.Keys)
+                {
+
+                    parameters.AppendFormat("{0}={1}&",
+                        WebUtility.UrlEncode(key),
+                        WebUtility.UrlEncode(nameValueCollection[key]));
+                }
+
+            parameters.Length -= 1;
+
+            var request = (HttpWebRequest)HttpWebRequest.Create(url);
+            request.ContentType = "application/json; charset=utf-8";
+            request.Method = "POST";
+
+            using (var writer = new StreamWriter(request.GetRequestStream()))
+            {
+                writer.Write(parameters.ToString());
+            }
+
+            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
+            using (Stream responseStream = response.GetResponseStream())
+            {
+                StreamReader reader = new StreamReader(responseStream, Encoding.UTF8);
+                return reader.ReadToEnd();
+            }
+            
+
+           
+        }
+
+
         /// <summary>
         /// Retrieves Pad List from CDNetworks
         /// </summary>
         /// <returns></returns>
         public string get_PadList()
         {
-            string url = $"{conf.servicearea}{ApiFunction.PADLIST}";
-            using (HttpClient _client = new HttpClient())
-            {
-                var request_content = new FormUrlEncodedContent(new List<KeyValuePair<string, string>>() {
-                    new KeyValuePair<string, string>("user", conf.user),
-                    new KeyValuePair<string, string>("pass", conf.pass),
-                    new KeyValuePair<string, string>("output", conf.output),
-                }) ;
-                var t1 = _client.PostAsync(url, request_content);
-                t1.Wait();
-                using (HttpResponseMessage res = t1.Result)
-                {
-                    using (HttpContent content = res.Content)
-                    {
-                        var t2= content.ReadAsStringAsync();
-                        t2.Wait();
-                        return t2.Result;
-                    }
-                }
-            }
-
+           
+            string url = string.Format("{0}{1}",conf.servicearea,ApiFunction.PADLIST);
+            var http_params = new NameValueCollection();
+            http_params.Add("user", conf.user);
+            http_params.Add("pass", conf.pass);
+            http_params.Add("output", conf.output);
+            return http_send(url,http_params );
         }
 
         /// <summary>
@@ -69,64 +91,38 @@ namespace cdnetworks_dotnet
         /// <returns></returns>
         public string send_Purge_Request(string pad, string purge_type, string[] paths_to_be_purged, string[] mail_to = null)
         {
-            string url = $"{conf.servicearea}{ApiFunction.DOPURGE}";
+            string url = string.Format("{0}{1}",conf.servicearea,ApiFunction.DOPURGE);
+            var http_params = new NameValueCollection();
+            http_params.Add("user", conf.user);
+            http_params.Add("pass", conf.pass);
+            http_params.Add("output", conf.output);
+            http_params.Add("pad", pad);
+            http_params.Add("type", purge_type);
 
-            using (HttpClient _client = new HttpClient())
+            if (mail_to != null)
             {
-                var req_params = new List<KeyValuePair<string, string>>() {
-                    new KeyValuePair<string, string>("user", conf.user),
-                    new KeyValuePair<string, string>("pass", conf.pass),
-                    new KeyValuePair<string, string>("output", conf.output),
-                    new KeyValuePair<string, string>("pad", pad),
-                    new KeyValuePair<string, string>("type", purge_type),
-            };
-                if (mail_to != null)
-                {
-                    req_params.Add(new KeyValuePair<string, string>("mailTo", string.Join(",", mail_to)));
-                }
-                foreach (var _path in paths_to_be_purged)
-                {
-                    req_params.Add(new KeyValuePair<string, string>("path",_path));
-                }
-                var request_content = new FormUrlEncodedContent(req_params);
-
-                var t1 = _client.PostAsync(url, request_content);
-                t1.Wait();
-                using (HttpResponseMessage res = t1.Result)
-                {
-                    using (HttpContent content = res.Content)
-                    {
-                        var t2 = content.ReadAsStringAsync();
-                        t2.Wait();
-                        return t2.Result;
-                    }
-                }
+                http_params.Add("mailTo", string.Join(",", mail_to));
             }
+            foreach (var _path in paths_to_be_purged)
+            {
+                http_params.Add("path", _path);
+            }
+
+            return http_send(url, http_params);
         }
 
         public string get_Status_Of_Purge_Request(string purge_id)
         {
-            string url = $"{conf.servicearea}{ApiFunction.STATUS}";
-            using (HttpClient _client = new HttpClient())
-            {
-                var request_content = new FormUrlEncodedContent(new List<KeyValuePair<string, string>>() {
-                    new KeyValuePair<string, string>("user", conf.user),
-                    new KeyValuePair<string, string>("pass", conf.pass),
-                    new KeyValuePair<string, string>("output", conf.output),
-                    new KeyValuePair<string, string>("pid", purge_id),
-                });
-                var t1 = _client.PostAsync(url, request_content);
-                t1.Wait();
-                using (HttpResponseMessage res = t1.Result)
-                {
-                    using (HttpContent content = res.Content)
-                    {
-                        var t2 = content.ReadAsStringAsync();
-                        t2.Wait();
-                        return t2.Result;
-                    }
-                }
-            }
+            string url = string.Format("{0}{1}", conf.servicearea, ApiFunction.STATUS);
+            var http_params = new NameValueCollection();
+            
+            http_params.Add("user", conf.user);
+            http_params.Add("pass", conf.pass);
+            http_params.Add("output", conf.output);
+            http_params.Add("pid", purge_id);
+            return http_send(url, http_params);
+
+
         }
     }
 }

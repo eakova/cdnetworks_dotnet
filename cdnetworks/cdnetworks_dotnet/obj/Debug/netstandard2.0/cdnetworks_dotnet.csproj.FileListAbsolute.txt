@@ -6,3 +6,11 @@ D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dot
 D:\Projects\cdnetworks\cdnetworks_dotnet\bin\Debug\netstandard2.0\cdnetworks_dotnet.pdb
 D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.dll
 D:\Projects\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\netstandard2.0\cdnetworks_dotnet.deps.json
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\netstandard2.0\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\netstandard2.0\cdnetworks_dotnet.pdb
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.csproj.CoreCompileInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.AssemblyInfoInputs.cache
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.AssemblyInfo.cs
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.dll
+D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\obj\Debug\netstandard2.0\cdnetworks_dotnet.pdb

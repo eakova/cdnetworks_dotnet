@@ -1,6 +1,9 @@
 {
   "version": 3,
   "targets": {
+    ".NETFramework,Version=v4.5.1": {},
+    ".NETFramework,Version=v4.6.1": {},
+    ".NETFramework,Version=v4.7.1": {},
     ".NETStandard,Version=v2.0": {
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
@@ -172,6 +175,9 @@
     }
   },
   "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.1": [],
+    ".NETFramework,Version=v4.6.1": [],
+    ".NETFramework,Version=v4.7.1": [],
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.0"
     ]
@@ -181,7 +187,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
@@ -201,7 +207,10 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netstandard2.0"
+        "netstandard2.0",
+        "net471",
+        "net451",
+        "net461"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -210,6 +219,15 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "projectReferences": {}
+        },
+        "net451": {
+          "projectReferences": {}
+        },
+        "net461": {
+          "projectReferences": {}
+        },
+        "net471": {
           "projectReferences": {}
         }
       },
@@ -234,7 +252,10 @@
         ],
         "assetTargetFallback": true,
         "warn": true
-      }
+      },
+      "net451": {},
+      "net461": {},
+      "net471": {}
     }
   }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace cdnetworks_dotnet
+﻿namespace cdnetworks_dotnet
 {
     /// <summary>
     /// Purge Type

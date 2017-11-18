@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>cdnetworks_dotnet</id>
+    <version>1.0.2</version>
+    <authors>Erhan Akova</authors>
+    <owners>Erhan Akova</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/eakova/cdnetworks_dotnet</projectUrl>
+    <description>Dot Net Client based on CDNetworks Cache Flush Open API v2.3.2 document</description>
+    <repository url="https://github.com/eakova/cdnetworks_dotnet" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.7.1" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\net451\cdnetworks_dotnet.dll" target="lib\net451\cdnetworks_dotnet.dll" />
+    <file src="D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\net461\cdnetworks_dotnet.dll" target="lib\net461\cdnetworks_dotnet.dll" />
+    <file src="D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\net471\cdnetworks_dotnet.dll" target="lib\net471\cdnetworks_dotnet.dll" />
+    <file src="D:\Projects\cdnetworks_dotnet\cdnetworks_dotnet\cdnetworks\cdnetworks_dotnet\bin\Debug\netstandard2.0\cdnetworks_dotnet.dll" target="lib\netstandard2.0\cdnetworks_dotnet.dll" />
+  </files>
+</package>

@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net471;net451;net461</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Erhan Akova</Authors>
     <Company />
     <Description>Dot Net Client based on CDNetworks Cache Flush Open API v2.3.2 document</Description>
     <RepositoryUrl>https://github.com/eakova/cdnetworks_dotnet</RepositoryUrl>
     <PackageProjectUrl>https://github.com/eakova/cdnetworks_dotnet</PackageProjectUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
